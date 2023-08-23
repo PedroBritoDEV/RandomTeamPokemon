@@ -7,8 +7,18 @@ module.exports = {
   './src/components/**/*.vue',
 ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif']
+      }
+    },
+    height: {
+      'vh-80': ' 80vh',
+      '16' : '4rem'
+    },
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }
 
